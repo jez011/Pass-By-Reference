@@ -11,7 +11,8 @@ int main() {
 	int sum = 0;
 	WorkFlow(sum);                                       //calls function from WorkFlow
 	std::cout << "Your lucky number is " << sum;        //Outputs 'lucky number.'
-	WorkFlow2(sum);                                             //calls function from WorkFlow2
+	WorkFlow2(sum);										//calls function from WorkFlow2
+                                          
 
 
 
@@ -22,7 +23,7 @@ int main() {
 															//Used to accumulate running total based on user input
 void WorkFlow(int& sum) {
 	int i = 0;
-	std::cout << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Enter 3 lucky numbers~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n";
+	std::cout << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Enter 3 Lucky Numbers for Today's Fortune~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n";
 	while (i < 3) {
 		int num;
 		std::cin >> num;
